@@ -1,6 +1,6 @@
 import cardPhoto from '../assets/cardPhoto.jpg'
 
-export default function CulturaBienestar() {
+export default function WelfareCulture() {
     return (
         <section className='xl:m-[60px]'>
             <div className='m-[18px] xl:flex xl:justify-center'>
