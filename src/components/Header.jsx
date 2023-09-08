@@ -9,8 +9,7 @@ const products = [
   { name: 'Área Escolar'},
   { name: 'Cultura y Bienestar'},
   { name: 'Área Digital'},
-  { name: 'Capacitación Laboral'},
-  { name: 'Ayudanos'}
+  { name: 'Capacitación Laboral'}
 ]
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -84,7 +83,6 @@ export default function Header() {
             </button>
             </figure>
         </nav>
-        {/* FALTA TAMAÑO DE LETRA MOBILE */}
             <div className="text-[#E5B2FF]">
               <div className="flex flex-col">
                 <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Inicio</a>
@@ -92,6 +90,7 @@ export default function Header() {
                 <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Área Digital</a>
                 <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Capacitación Laboral</a>
                 <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Información de Contacto</a>
+                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Ayudanos</a>
               </div>
             </div>
         </Dialog.Panel>
