@@ -13,7 +13,7 @@ export default function ContactForm() {
                 <p className='text-sm xl:text-xl xl:font-medium xl:leading-[30px]'>Una vez que hayas completado los datos, apretá el botón <span className='font-bold mx-1.5'>“Enviar”</span> para que nos llegue tu consulta. ¡Y listo!</p>
             </div>
             <div className='flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center'>
-                <form action='' className='bg-[#E5B2FF] w-[324px] px-[25px] rounded-lg flex flex-col xl:w-[571px] xl:h-[631px] xl:mr-[29px]'>
+                <form className='bg-[#E5B2FF] w-[324px] px-[25px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[571px] xl:h-[631px] xl:mr-[29px]'>
                     <p className='hidden xl:flex xl:pt-[40px] xl:pb-[50px] xl:font-semibold xl:text-[22px]'>¡Envianos tu mensaje aquí abajo!</p>
                     <p className='text-lg font-semibold leading-normal py-[30px] xl:hidden'>Consultas</p>
                     <label htmlFor='name' className='mb-2 font-normal font-medium leading-[23px] xl:text-[22px] xl:leading-normal'>Nombre</label>
