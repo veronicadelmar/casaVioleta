@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import AboutUs from './components/AboutUs'
 import Courses from './components/Courses'
+import WelfareCulture from './components/WelfareCulture'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <AboutUs/>
       <Courses/>
+      <WelfareCulture/>
     </div>
   )
 }
