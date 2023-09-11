@@ -8,14 +8,15 @@ import DigitalArea from './components/DigitalArea'
 
 function App() {
   return (
-    <div className='bg-[#F8EBFF] flex flex-col items-center'>
-      <Header/>
-      {/* <AboutUs/>
-      <Courses/>
-      <Location/>
-      <Footer/> */}
-      <WelfareCulture/>
-      <DigitalArea/>
+    <div className="App">
+      <Location
+      />
+     <Footer/>
+     
+     <SchoolArea/>
+
+     <WorkArea/>
+     
     </div>
   )
 }

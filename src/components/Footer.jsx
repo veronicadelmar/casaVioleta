@@ -6,7 +6,7 @@ import logo from '../assets/logo.svg'
 function Footer(){
     return (
    
-    <div className="p-[60px] mt-[70px] mx-auto text-[#E5B2FF] bg-[#543366]">
+    <footer className="p-[60px] mt-[70px] mx-auto text-[#E5B2FF] bg-[#543366]">
    
         <div className="xl:flex xl:items-center xl:justify-between">
             <div>
@@ -41,10 +41,10 @@ function Footer(){
                 </li>
             </ul> 
         </div>
-        <div className='text-center mt-7 mb-[50px]'>
+        <div className='text-center mt-7 '>
                 <p>Copyright © 2023</p>
         </div>
-        </div>
+        </footer>
 
 
 
