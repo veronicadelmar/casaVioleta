@@ -5,6 +5,7 @@ import Location from './components/Location'
 import Footer from './components/Footer'
 import WelfareCulture from './components/WelfareCulture'
 import DigitalArea from './components/DigitalArea'
+import HelpUsGrow from './components/HelpUsGrow'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs/>
       <Courses/>
       <Location/>
+      <HelpUsGrow/>
       <Footer/>
     </div>
   )
