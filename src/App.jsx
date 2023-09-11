@@ -10,12 +10,12 @@ function App() {
   return (
     <div className='bg-[#F8EBFF] flex flex-col items-center'>
       <Header/>
-      <AboutUs/>
+      {/* <AboutUs/>
       <Courses/>
       <Location/>
-      <Footer/>
-      {/* <WelfareCulture/>
-      <DigitalArea/> */}
+      <Footer/> */}
+      <WelfareCulture/>
+      <DigitalArea/>
     </div>
   )
 }
