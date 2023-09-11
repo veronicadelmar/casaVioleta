@@ -2,6 +2,7 @@ import Header from './components/Header'
 import AboutUs from './components/AboutUs'
 import Courses from './components/Courses'
 import WelfareCulture from './components/WelfareCulture'
+import DigitalArea from './components/DigitalArea'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AboutUs/>
       <Courses/>
       <WelfareCulture/>
+      <DigitalArea/>
     </div>
   )
 }
