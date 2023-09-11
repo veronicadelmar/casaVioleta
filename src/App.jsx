@@ -5,14 +5,13 @@ import WorkArea from './components/WorkArea';
 function App() {
   return (
     <div className="App">
-      <Location
-      />
-     <Footer/>
+      
      
-     <SchoolArea/>
+  {/*<SchoolArea/>
 
-     <WorkArea/>
-     
+  <WorkArea/>*/}
+  <Location/>
+   <Footer/>
     </div>
   )
 }
