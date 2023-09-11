@@ -4,7 +4,7 @@ import { RiArrowDownDoubleLine } from 'react-icons/ri'
 
 export default function AboutUs() {
     return (
-        <section className='text-[#140819] bg-[#F8EBFF] w-[360px] xl:w-full xl:flex xl:flex-col'>
+        <section className='AboutUs text-[#140819] bg-[#F8EBFF] w-[360px] xl:w-full xl:flex xl:flex-col'>
             <div className='xl:w-[1280px] xl:flex xl:flex-col xl:relative xl:self-center'>
                 <img src={imgVideo} className='w-full mb-[30px] xl:mt-0 xl:mb-0' alt='Video presentación Casa Violeta' />
                 <div className='hidden xl:flex xl:absolute xl:bottom-[-45px]'>

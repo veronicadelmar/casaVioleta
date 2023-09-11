@@ -4,12 +4,17 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import { Dialog, Popover } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom';
 
 const products = [
-  { name: 'Área Escolar'},
-  { name: 'Cultura y Bienestar'},
-  { name: 'Área Digital'},
-  { name: 'Capacitación Laboral'}
+  { name: 'Área Escolar',
+    path: '/area-escolar'},
+  { name: 'Cultura y Bienestar',
+    path: '/cultura-bienestar'},
+  { name: 'Área Digital',
+    path: '/area-digital'},
+  { name: 'Capacitación Laboral',
+    path: '/capacitacion-laboral'}
 ]
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -17,9 +22,9 @@ export default function Header() {
   return (
     <header className="h-[70px] w-full px-[25px] flex flex-row flex-wrap justify-between items-center text-[#E5B2FF] bg-[#461e5b] xl:h-[100px] xl:px-[60px]">
         {/* logo */}
-        <figure>
+        <Link to='/'>
           <img className='w-2/4 xl:w-full' src={logo} alt='logo casa violeta' />
-        </figure>
+        </Link>
         {/* navBar */}
         <nav>
           {/* btn burger */}
@@ -31,9 +36,11 @@ export default function Header() {
           </figure>
           {/* option's Desktop */}
           <Popover.Group className="hidden xl:flex xl:gap-x-[50px]">
-            <a href="#" className="xl:text-xl xl:semi-bold">
-                Inicio
-            </a>
+            <Link to='/'>
+              <p className="xl:text-xl xl:semi-bold">
+                  Inicio
+              </p>
+            </Link>
             <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 outline-none xl:text-xl xl:semi-bold">
                 Cursos y Talleres
@@ -47,21 +54,25 @@ export default function Header() {
                         className="group relative flex items-center"
                       >
                         <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-[#E5B2FF] p-5 border-[#E5B2FF] border-b-[1px]">
-                            {item.name}
-                          </a>
+                          <Link to={item.path}>
+                            <p className="block font-semibold text-[#E5B2FF] p-5 border-[#E5B2FF] border-b-[1px]">
+                              {item.name}
+                            </p>
+                          </Link>
                         </div>
                       </div>
                     ))}
                   </div>
                 </Popover.Panel>
             </Popover>
-            <a href="#" className="xl:text-xl xl:semi-bold">
-              Información de Contacto
-            </a>
-            <a href="#" className="xl:text-xl xl:semi-bold">
-              Ayudanos
-            </a>
+            <Link to='/informacion-de-contacto'>
+              <p className="xl:text-xl xl:semi-bold">
+                Información de Contacto
+              </p>
+            </Link>
+            <Link to='/ayudanos-a-crecer'>
+              <p className="xl:text-xl xl:semi-bold">Ayudanos</p>
+            </Link>
           </Popover.Group>
       </nav>
       {/* Mobile */}

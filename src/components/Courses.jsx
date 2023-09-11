@@ -29,7 +29,7 @@ import img15 from '../assets/casaVioleta.png'
 
 function Courses() {
   return (
-    <section className="w-[360px] text-[#140819] xl:relative xl:flex xl:flex-col xl:mb-[200px] xl:w-full xl:mx-0 xl:bg-[#E5B2FF]">
+    <section className="Courses w-[360px] text-[#140819] xl:relative xl:flex xl:flex-col xl:mb-[200px] xl:w-full xl:mx-0 xl:bg-[#E5B2FF]">
       <div className="mx-[18px] xl:max-w-[1280px] xl:self-center xl:mx-0 xl:flex xl:justify-center xl:flex-col xl:pb-[50px] xl:px-[60px] xl:mb-0">
         <h2 className="text-center mb-[30px] text-xl font-medium leading-normal xl:mb-0 xl:text-[38px] xl:font-semibold xl:pb-[50px]">Nuestros cursos</h2>
         <p className="mb-[30px] text-sm font-normal leading-[23px] xl:mb-[150px] xl:text-xl xl:leading-[26px] xl:font-medium">Te invitamos a conocer nuestras ofertas de clases, de modalidad presencial y con miras a ofrecer algunas capacitaciones de forma virtual. Te recibiremos en un espacio cómodo y cálido, en donde no sólo obtendrás una atención personalizada sino que te formarás con las últimas tendencias del rubro, pudiendo cursar con todos los materiales incluidos.</p>
