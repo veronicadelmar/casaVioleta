@@ -11,7 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#F8EBFF] flex flex-col items-center">
+      <div className="bg-[#F8EBFF] flex flex-col items-center font-['Raleway_Sans_serif']">
         <Header/>
         <Routes>
           <Route path='/' element={<HomeContainer />} />
