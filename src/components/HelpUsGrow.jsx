@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import useScroll from "../useScroll.js"
+import useScroll from "../customHooks/useScroll.js"
 import actionDonations from "../assets/actionDonations.png"
 import volunteering from "../assets/volunteering.png"
 import donations from "../assets/donations.png"

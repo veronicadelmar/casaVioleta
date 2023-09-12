@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { ScrollContext } from "../context/ScrollContext"
+import useScroll from "../customHooks/useScroll.js"
 import audiovisual from "../assets/introduccionALaProduccionAudiovisual.png";
 import fotografia from "../assets/introduccionALaFotografia.png";
 import emprendimiento from "../assets/potenciarTuEmprendimientoEnRedesSociales.png";
@@ -10,7 +9,7 @@ import rocket from "../assets/rocket-icon-empty-state.svg";
 
 
 export default function DigitalArea() {
-    const { goToTop } = useContext(ScrollContext)
+    const { goToTop } = useScroll();
     
   return (
     <section className="flex flex-col justify-center self-center w-[360px] text-[#140819] xl:w-full">
@@ -31,7 +30,7 @@ export default function DigitalArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este curso técnico y creativo aprenderás a reconocer los elementos clave de cada etapa, desde la preproducción hasta la postproducción, y dominarás las herramientas necesarias para liderar un equipo de trabajo con confianza y destreza.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -44,7 +43,7 @@ export default function DigitalArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Con tu celular o cámara digital explorá el arte de la fotografía desde cero. Capturá imágenes impresionantes y aprendé sobre  lenguaje visual, equilibrio de composición, enfoque, profundidad de campo, teoría del color, iluminación y edición digital.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -57,7 +56,7 @@ export default function DigitalArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Si tenés un emprendimiento, este taller es la clave para destacarte en el mundo digital. Aprendé copywriting efectivo, explorá el uso de inteligencia artificial, dominá el diseño gráfico y audiovisual y aprovechá las herramientas de Metabusiness Suite y la publicidad en redes sociales.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -70,7 +69,7 @@ export default function DigitalArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Este curso te enseñará desde cero cómo utilizar Facebook, Instagram, Twitter (X) y TikTok. A lo largo de 10 encuentros presenciales, te sumergirás en est as redes para aprovecharlas al máximo y crear una presencia efectiva en línea, sin importar tu nivel de experiencia.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -83,7 +82,7 @@ export default function DigitalArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este curso descubrí cómo funcionan las impresoras 3D y explorá sus emocionantes posibilidades laborales. Diseñá y convertí tus ideas en objetos tangibles, adquiriendo nuevas habilidades.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>

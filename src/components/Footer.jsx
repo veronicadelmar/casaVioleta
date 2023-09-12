@@ -1,5 +1,5 @@
 
-import {AiFillFacebook} from "react-icons/ai";
+import {FaFacebookSquare} from "react-icons/fa";
 import {BsInstagram, BsWhatsapp } from "react-icons/bs";
 import {MdEmail} from "react-icons/md"
 import logoCasaVioleta from "../assets/logo.svg"
@@ -36,7 +36,7 @@ export default function Footer(){
                     </li>
                     
                     <li className="flex items-center pb-[30px] text-sm xl:pb-0 xl:text-xl">
-                        <AiFillFacebook className="w-8 h-8 mr-[18px] xl:font-medium"/>
+                        <FaFacebookSquare className="w-8 h-8 mr-[18px] xl:font-medium"/>
                         <a href="https://www.facebook.com/p/Casa-Violeta-100050740584043/" target="_blank" className="hover:underline xl:font-medium xl:leading-[26px]">Casa Violeta</a>
                     </li>
                 </ul> 

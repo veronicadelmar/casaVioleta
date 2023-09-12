@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { ScrollContext } from "../context/ScrollContext"
+import useScroll from "../customHooks/useScroll.js"
 import artesPlasticas from "../assets/artesPlasticas.png";
 import apoyoEscolar from "../assets/apoyoEscolar.png";
 import rocket from "../assets/rocket-icon-empty-state.svg";
 
 export default function SchoolArea() {
-    const { goToTop } = useContext(ScrollContext)
+    const { goToTop } = useScroll();
     
   return (
     <section className="flex flex-col self-center justify-center w-[360px] text-[#140819] xl:w-full">
@@ -27,7 +26,7 @@ export default function SchoolArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller, los niños tendrán la oportunidad de explorar una variedad de técnicas artísticas como dibujo, pintura y collage, entre otras. Mediante estas actividades, podrán experimentar y dar forma a sus emociones de manera creativa. Todos los materiales necesarios para cada propuesta serán proporcionados por nosotros.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -40,7 +39,7 @@ export default function SchoolArea() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Nuestras clases están dirigidas a estudiantes de nivel primario y secundario, ofreciendo un espacio educativo personalizado y de refuerzo. Nuestro enfoque se centra en las necesidades individuales de cada estudiante, brindando atención extra para fortalecer los conceptos fundamentales y superar obstáculos en el aprendizaje</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { ScrollContext } from "../context/ScrollContext"
+import useScroll from "../customHooks/useScroll.js"
 import lenceria from "../assets/morderiaYLenceria.png";
 import molderia from "../assets/molderia.png";
 import auxiliar from "../assets/auxilar.png";
@@ -9,7 +8,7 @@ import orientacionVocacional from "../assets/orientacionVocacional.png";
 import comunicacionEstrategica from "../assets/comunicacionEstrategica.png";
 
 export default function JobTraining() {
-    const { goToTop } = useContext(ScrollContext)
+    const { goToTop } = useScroll();
 
   return (
     <section className="flex flex-col self-center justify-center w-[360px] text-[#140819] xl:w-full">
@@ -30,7 +29,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este curso vas a adquirir las destrezas para diseñar y confeccionar tu propia ropa interior, eligiendo telas apropiadas y tomando medidas precisas. Explorá diversas tallas y estilos, desde corpiños básicos hasta bralettes, bombachas y culottes. Convertíte en un experto en la confección de prendas personalizadas.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -43,7 +42,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este curso aprendé a tomar medidas y plasmarlas en tu propia moldería. Utilizando papel, darás vida a diversas formas y acabados, dominando la creación de moldes base, mangas japonesas, remeras, camisetas, faldas y más. Preparate para entrar al mundo del diseño de moda.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -56,7 +55,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Te daremos las herramientas que te capacitarán en el cuidado de personas en avanzada edad. Nuestro enfoque de cuidado estará puesto de manera holística, ayudando en cada ámbito que componen a un sujeto de cuidados, comprendiendo que la salud no es simplemente la ausencia de la enfermedad.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -69,7 +68,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Este curso es para aquellos que deseen trabajar en la seguridad. Aprenderás técnicas de defensa personal y seguridad, preparándote para trabajar en la protección de instituciones y espacios diversos.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -82,7 +81,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Unite a nuestra charla diseñada para padres y alumnos. Nuestro objetivo es equipar a los padres con las herramientas necesarias para apoyar y guiar a los jóvenes a definir sus vocaciones. Una oportunidad valiosa para explorar juntos el camino hacia un futuro profesional satisfactorio.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
@@ -95,7 +94,7 @@ export default function JobTraining() {
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Aprende a diagnosticar y problematizar tu proyecto, creando insumos que comuniquen su identidad eficazmente. Explorá conceptos clave, desde deconstrucción y construcción de singularidad hasta estrategias aplicadas en redes sociales, gráficos, video y fotografía.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
-                        <Link to="/informacion-de-contacto" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" onClick={goToTop}>
                             <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                         </Link>
                     </div>
