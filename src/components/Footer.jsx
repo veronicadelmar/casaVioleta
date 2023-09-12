@@ -1,8 +1,8 @@
 
-import {AiFillFacebook} from 'react-icons/Ai';
-import {BsInstagram, BsWhatsapp } from 'react-icons/bs';
-import {MdEmail} from 'react-icons/md'
-import logoCasaVioleta from '../assets/logo.svg'
+import {AiFillFacebook} from "react-icons/Ai";
+import {BsInstagram, BsWhatsapp } from "react-icons/bs";
+import {MdEmail} from "react-icons/md"
+import logoCasaVioleta from "../assets/logo.svg"
 
 export default function Footer(){
     return (
@@ -41,7 +41,7 @@ export default function Footer(){
                     </li>
                 </ul> 
             </div>
-            <div className='text-center pb-[30px] xl:pb-0'>
+            <div className="text-center pb-[30px] xl:pb-0">
                 <p className="text-[15px]">Copyright © 2023</p>
             </div>
         </footer>

@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm"
 import HelpUsGrow from "./components/HelpUsGrow"
 import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Whatsapp from "./components/Whatsapp"
+import Whatsapp from './components/Whatsapp'
 import ScrollContextProvider from "./context/ScrollContext"
 
 function App() {

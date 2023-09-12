@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom"
+import { useContext } from "react"
+import { ScrollContext } from "../context/ScrollContext"
 import actionDonations from "../assets/actionDonations.png"
 import volunteering from "../assets/volunteering.png"
 import donations from "../assets/donations.png"
-import { Link } from "react-router-dom"
 import Location from "./Location"
-import { useContext } from "react"
-import { ScrollContext } from "../context/ScrollContext"
 
 export default function HelpUsGrow() {
     const { goToTop } = useContext(ScrollContext)
