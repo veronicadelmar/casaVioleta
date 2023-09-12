@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { ScrollContext } from "../context/ScrollContext"
+import useScroll from "../useScroll.js"
 import actionDonations from "../assets/actionDonations.png"
 import volunteering from "../assets/volunteering.png"
 import donations from "../assets/donations.png"
 import Location from "./Location"
 
 export default function HelpUsGrow() {
-    const { goToTop } = useContext(ScrollContext)
+    const { goToTop } = useScroll();
 
     return (
         <>
@@ -27,7 +26,7 @@ export default function HelpUsGrow() {
                             <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Voluntariado</h3>
                             <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Si sos docente o te gustaría compartir tus conocimientos, te invitamos a brindar cursos o talleres para la comunidad. Animate a crecer con nosotros y vivir esta hermosa experiencia.</p>
                         </div>
-                        <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={goToTop}>
                             <span className="underline text-[#80FF91] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más información</span>
                         </Link>
                     </div>
@@ -37,7 +36,7 @@ export default function HelpUsGrow() {
                             <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Donaciones</h3>
                             <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Otra forma de colaborar es donando libros y útiles para nuestros talleres gratuitos de apoyo escolar para niños y adolescentes. Contactate con nosotros para conocer más detalles.</p>
                         </div>
-                        <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
+                        <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={goToTop}>
                             <span className="underline text-[#80FF91] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más información</span>
                         </Link>
                     </div>
