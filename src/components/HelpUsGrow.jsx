@@ -4,7 +4,7 @@ import donations from "../assets/donations.png"
 
 export default function HelpUsGrow() {
     return (
-        <section className="culturaBienestar flex flex-col justify-center w-[360px] text-[#140819] xl:w-full">
+        <section className="culturaBienestar flex flex-col justify-center self-center w-[360px] text-[#140819] xl:w-full">
             <div className="bg-gradient-to-r from-[#E5B2FF] to-[#e5b2ff00] xl:flex xl:flex-col xl:mx-0">
                 <div className="py-[30px] xl:mx-0 xl:p-[60px] xl:w-[1280px] xl:self-center">
                     <h3 className="mx-[18px] font-medium text-xl leading-normal xl:mx-0 xl:text-[44px] xl:font-semibold">Ayudanos a crecer</h3>
