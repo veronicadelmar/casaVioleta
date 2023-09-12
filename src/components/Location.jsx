@@ -2,10 +2,10 @@ import { TbMathGreater } from "react-icons/tb";
 
 export default function Location(){ 
     return (
-        <section className="w-[360px] xl:flex xl:flex-col xl:w-full xl:mb-[100px]">
+        <section className="w-[360px] flex flex-col self-center xl:w-full xl:mb-[100px]">
             <h2 className="text-[#E5B2FF] bg-[#543366] text-xl font-medium leading-normal text-center py-[28px] mb-[30px] xl:text-[38px] xl:py-[50px] xl:mb-[100px]">Mapa</h2>
             {/* container */}
-            <div className="mx-[18px] xl:flex  xl:self-center xl:gap-4 xl:mx-[60px]">
+            <div className="mx-[18px] xl:flex xl:self-center xl:gap-4 xl:mx-[60px]">
                 <div className="text-[#E5B2FF] bg-[#543366] p-[20px] rounded-lg xl:w-[571px] xl:h-[300px]">
                     <h3 className="font-semibold text-lg mb-[20px] xl:mb-[30px] xl:text-[22px]">¿Como llegar?</h3>
                     <p className="text-sm font-normal leading-[23px] xl:leading-[26px] xl:font-medium xl:text-[20px]">Estamos ubicados en Álvarez 32, Barrio Don Bosco, 
