@@ -1,5 +1,5 @@
 
-import {AiFillFacebook} from "react-icons/Ai";
+import {AiFillFacebook} from "react-icons/ai";
 import {BsInstagram, BsWhatsapp } from "react-icons/bs";
 import {MdEmail} from "react-icons/md"
 import logoCasaVioleta from "../assets/logo.svg"
