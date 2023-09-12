@@ -4,10 +4,11 @@ import emprendimiento from '../assets/potenciarTuEmprendimientoEnRedesSociales.p
 import redes from '../assets/introduccionALaRedesSociales.png';
 import impresion3d from '../assets/formacionEnImpresion3D.png';
 import rocket from '../assets/rocket-icon-empty-state.svg';
+import { Link } from 'react-router-dom';
 
 export default function DigitalArea() {
   return (
-    <section className='flex flex-col justify-center w-[360px] text-[#140819] xl:w-full'>
+    <section className='flex flex-col justify-center self-center w-[360px] text-[#140819] xl:w-full'>
             <div className='bg-gradient-to-r from-[#E5B2FF] to-[#e5b2ff00] xl:flex xl:flex-col xl:mx-0'>
                 <div className='py-[30px] xl:mx-0 xl:p-[60px] xl:w-[1280px] xl:self-center'>
                     <h3 className='mx-[18px] font-medium text-xl leading-normal xl:mx-0 xl:text-[44px] xl:font-semibold'>Área Digital</h3>
@@ -25,7 +26,9 @@ export default function DigitalArea() {
                         <p className='px-5 font-medium leading-[25px] xl:text-xl leading-[30px]'>En este curso técnico y creativo aprenderás a reconocer los elementos clave de cada etapa, desde la preproducción hasta la postproducción, y dominarás las herramientas necesarias para liderar un equipo de trabajo con confianza y destreza.</p>
                     </div>
                     <div className='flex justify-end py-7 px-5'>
-                        <a href="https://api.whatsapp.com/send?phone=5491165039065" target="_blank" className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</a>
+                        <Link to='/informacion-de-contacto'>
+                            <span className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</span>
+                        </Link>
                     </div>
                 </div>
                 {/* Curso 2 */}
@@ -36,7 +39,9 @@ export default function DigitalArea() {
                         <p className='px-5 font-medium leading-[25px] xl:text-xl leading-[30px]'>Con tu celular o cámara digital explorá el arte de la fotografía desde cero. Capturá imágenes impresionantes y aprendé sobre  lenguaje visual, equilibrio de composición, enfoque, profundidad de campo, teoría del color, iluminación y edición digital.</p>
                     </div>
                     <div className='flex justify-end py-7 px-5'>
-                        <a href="https://api.whatsapp.com/send?phone=5491165039065" target="_blank" className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</a>
+                        <Link to='/informacion-de-contacto'>
+                            <span className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</span>
+                        </Link>
                     </div>
                 </div>
                 {/* Curso 3 */}
@@ -47,7 +52,9 @@ export default function DigitalArea() {
                         <p className='px-5 font-medium leading-[25px] xl:text-xl leading-[30px]'>Si tenés un emprendimiento, este taller es la clave para destacarte en el mundo digital. Aprendé copywriting efectivo, explorá el uso de inteligencia artificial, dominá el diseño gráfico y audiovisual y aprovechá las herramientas de Metabusiness Suite y la publicidad en redes sociales.</p>
                     </div>
                     <div className='flex justify-end py-7 px-5'>
-                        <a href="https://api.whatsapp.com/send?phone=5491165039065" target="_blank" className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</a>
+                        <Link to='/informacion-de-contacto'>
+                            <span className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</span>
+                        </Link>
                     </div>
                 </div>
                 {/* Curso 4 */}
@@ -58,7 +65,9 @@ export default function DigitalArea() {
                         <p className='px-5 font-medium leading-[25px] xl:text-xl leading-[30px]'>Este curso te enseñará desde cero cómo utilizar Facebook, Instagram, Twitter (X) y TikTok. A lo largo de 10 encuentros presenciales, te sumergirás en est as redes para aprovecharlas al máximo y crear una presencia efectiva en línea, sin importar tu nivel de experiencia.</p>
                     </div>
                     <div className='flex justify-end py-7 px-5'>
-                        <a href="https://api.whatsapp.com/send?phone=5491165039065" target="_blank" className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</a>
+                         <Link to='/informacion-de-contacto'>
+                            <span className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</span>
+                        </Link>
                     </div>
                 </div>
                 {/* Curso 5 */}
@@ -69,7 +78,9 @@ export default function DigitalArea() {
                         <p className='px-5 font-medium leading-[25px] xl:text-xl leading-[30px]'>En este curso descubrí cómo funcionan las impresoras 3D y explorá sus emocionantes posibilidades laborales. Diseñá y convertí tus ideas en objetos tangibles, adquiriendo nuevas habilidades.</p>
                     </div>
                     <div className='flex justify-end py-7 px-5'>
-                        <a href="https://api.whatsapp.com/send?phone=5491165039065" target="_blank" className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</a>
+                        <Link to='/informacion-de-contacto'>
+                            <span className='underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]'>Para más info</span>
+                        </Link>
                     </div>
                 </div>
                 {/* rocket */}
