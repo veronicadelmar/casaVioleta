@@ -12,7 +12,7 @@ import Whatsapp from './components/Whatsapp'
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#F8EBFF] flex flex-col font-['Raleway_Sans_serif']">
+      <div className="bg-[#F8EBFF] flex flex-col font-['Raleway']">
         <Header/>
         <Whatsapp />
         <Routes>
