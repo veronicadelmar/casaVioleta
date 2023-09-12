@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { useContext } from "react"
+import { ScrollContext } from "../context/ScrollContext"
 import welfareCulture01 from "../assets/welfareCulture01.png"
 import welfareCulture02 from "../assets/welfareCulture02.png"
 import welfareCulture03 from "../assets/welfareCulture03.jpg"
@@ -7,6 +9,8 @@ import welfareCulture05 from "../assets/welfareCulture05.png"
 import comingSoon from "../assets/rocket-icon-empty-state.svg"
 
 export default function WelfareCulture() {
+    const { goToTop } = useContext(ScrollContext)
+
     return (
         <section className="culturaBienestar flex flex-col justify-center self-center w-[360px] text-[#140819] xl:w-full">
             <div className="bg-gradient-to-r from-[#E5B2FF] to-[#e5b2ff00] xl:flex xl:flex-col xl:mx-0">
@@ -24,7 +28,7 @@ export default function WelfareCulture() {
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Autoestima y Bienestar</h3>
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller, los niños tendrán la oportunidad de explorar una variedad de técnicas artísticas como dibujo, pintura y collage, entre otras. Mediante estas actividades, podrán experimentar y dar forma a sus emociones de manera creativa. Todos los materiales necesarios para cada propuesta serán proporcionados por nosotros.</p>
                     </div>
-                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5">
+                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                     </Link>
                 </div>
@@ -34,7 +38,7 @@ export default function WelfareCulture() {
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Folklore</h3>
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller vas a aprender a bailar y a disfrutar del folklore. Los invitamos a todos los jóvenes y adultos que deseen conocer esta danza tradicional argentina. No es necesario contar con conocimientos previos, sólo tener ganas y mucho entusiasmo.</p>
                     </div>
-                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5">
+                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                     </Link>
                 </div>
@@ -44,7 +48,7 @@ export default function WelfareCulture() {
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Teatro</h3>
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller te invitamos a vivir una experiencia enriquecedora y entretenida, fusionando diversión y aprendizaje a tu propio ritmo, mientras nos sumergimos juntos en el mundo del teatro. Encontrarás un ambiente con un enfoque comprometido y lúdico.</p>
                     </div>
-                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5">
+                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                     </Link>
                 </div>
@@ -54,7 +58,7 @@ export default function WelfareCulture() {
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Organización personal, Familiar y Financiera</h3>
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller podrás reconocer la importancia y beneficios de la organización, reduciendo el estrés y con la posibilidad de realizar mayor cantidad de actividades. El objetivo será que aprendas a balancear la administración sin restar tu bienestar personal.</p>
                     </div>
-                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5">
+                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                     </Link>
                 </div>
@@ -64,7 +68,7 @@ export default function WelfareCulture() {
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Sanar Duelo</h3>
                         <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller explorarás el concepto y propósito del duelo, mientras adquirís herramientas para mejorar tu inteligencia emocional. Ganarás confianza, paciencia y esperanza mientras transitás tu duelo, encontrando en nosotros un acompañamiento.</p>
                     </div>
-                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5">
+                    <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={() => goToTop()}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
                     </Link>
                 </div>

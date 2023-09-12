@@ -9,21 +9,25 @@ import HelpUsGrow from './components/HelpUsGrow'
 import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Whatsapp from './components/Whatsapp'
+import ScrollContextProvider from "./context/ScrollContext"
+
 function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#F8EBFF] flex flex-col font-['Raleway']">
         <Header/>
         <Whatsapp />
-        <Routes>
-          <Route path='/' element={<HomeContainer />} />
-          <Route path='/area-escolar' element={<SchoolArea />} />
-          <Route path='/cultura-bienestar' element={<WelfareCulture />} />
-          <Route path='/area-digital' element={<DigitalArea />} />
-          <Route path='/capacitacion-laboral' element={<JobTraining />} />
-          <Route path='/informacion-de-contacto' element={<ContactForm />} />
-          <Route path='/ayudanos-a-crecer' element={<HelpUsGrow />} />
-        </Routes>
+        <ScrollContextProvider>
+          <Routes>
+            <Route path='/' element={<HomeContainer />} />
+            <Route path='/area-escolar' element={<SchoolArea />} />
+            <Route path='/cultura-bienestar' element={<WelfareCulture />} />
+            <Route path='/area-digital' element={<DigitalArea />} />
+            <Route path='/capacitacion-laboral' element={<JobTraining />} />
+            <Route path='/informacion-de-contacto' element={<ContactForm />} />
+            <Route path='/ayudanos-a-crecer' element={<HelpUsGrow />} />
+          </Routes>
+        </ScrollContextProvider>
         <Footer/>
       </div>
     </BrowserRouter>
