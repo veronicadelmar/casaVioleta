@@ -20,7 +20,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="h-[70px] w-full px-[25px] flex flex-row flex-wrap justify-between items-center text-[#E5B2FF] bg-[#461e5b] xl:h-[100px] xl:px-[60px]">
+    <header className="h-[70px] w-full px-[18px] flex flex-row flex-wrap justify-between items-center text-[#E5B2FF] bg-[#461e5b] xl:h-[100px] xl:px-[60px]">
         {/* logo */}
         <Link to="/">
           <img className="w-2/4 xl:w-full" src={logo} alt="logo casa violeta" />
