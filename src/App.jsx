@@ -8,11 +8,13 @@ import ContactForm from './components/ContactForm'
 import HelpUsGrow from './components/HelpUsGrow'
 import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Whatsapp from './components/Whatsapp'
 function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#F8EBFF] flex flex-col items-center font-['Raleway_Sans_serif']">
         <Header/>
+        <Whatsapp />
         <Routes>
           <Route path='/' element={<HomeContainer />} />
           <Route path='/area-escolar' element={<SchoolArea />} />
