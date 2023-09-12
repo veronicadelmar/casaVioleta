@@ -4,7 +4,7 @@ import Location from "./Location"
 
 export default function HomeContainer() {
     return (
-        <main>
+        <main className="flex flex-col items-center">
             <AboutUs />
             <Courses />
             <Location />

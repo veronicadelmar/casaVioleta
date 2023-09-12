@@ -81,9 +81,9 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full bg-[#461e5b] overflow-y-auto">
         <nav className='h-[70px] px-[25px] flex flex-row flex-wrap justify-between items-center border-[#E5B2FF] border-b-2'>
             {/* logo */}
-            <figure>
+            <Link to='/'>
                 <img className='w-2/4' src={logo} alt='logo casa violeta' />
-            </figure>
+            </Link>
             {/* btn close */}
             <figure className="xl:hidden">
             <button
@@ -96,12 +96,24 @@ export default function Header() {
         </nav>
             <div className="text-[#E5B2FF]">
               <div className="flex flex-col">
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Inicio</a>
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Área Escolar</a>
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Área Digital</a>
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Capacitación Laboral</a>
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Información de Contacto</a>
-                <a href="#" className="p-5 border-[#E5B2FF] border-b-[1px]">Ayudanos</a>
+                <Link to='/'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Inicio</p>
+                </Link>
+                <Link to='/area-escolar'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Escolar</p>
+                </Link>
+                <Link to='/area-digital'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Digital</p>
+                </Link>
+                <Link to='/capacitacion-laboral'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Capacitación Laboral</p>
+                </Link>
+                <Link to='/informacion-de-contacto'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Información de Contacto</p>
+                </Link>
+                <Link to='/ayudanos-a-crecer'>
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Ayudanos</p>
+                </Link>
               </div>
             </div>
         </Dialog.Panel>
