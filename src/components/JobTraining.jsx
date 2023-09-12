@@ -19,7 +19,7 @@ export default function JobTraining() {
             </div>
             <div className='flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center xl:flex-wrap xl:[&>:nth-child(2)]:mx-[17px] xl:[&>:nth-child(5)]:mx-[17px]'>
                 {/* Curso 1 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={lenceria} alt="Moldería y armado de ropa interior" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Moldería y armado de ropa interior</h3>
@@ -32,7 +32,7 @@ export default function JobTraining() {
                     </div>
                 </div>
                 {/* Curso 2 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={molderia} alt="Moldería Inicial" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Moldería Inicial</h3>
@@ -45,7 +45,7 @@ export default function JobTraining() {
                     </div>
                 </div>
                 {/* Curso 3 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={auxiliar} alt="Auxiliar en Cuidados de Adultos Mayores" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Auxiliar en Cuidados de Adultos Mayores</h3>
@@ -58,7 +58,7 @@ export default function JobTraining() {
                     </div>
                 </div>
                 {/* Curso 4 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={seguridadDePertenencia} alt="Controlador de admisión y permanencia" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Controlador de admisión y permanencia</h3>
@@ -71,7 +71,7 @@ export default function JobTraining() {
                     </div>
                 </div>
                 {/* Curso 5 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={orientacionVocacional} alt="Orientación vocacional" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Orientación vocacional</h3>
@@ -84,7 +84,7 @@ export default function JobTraining() {
                     </div>
                 </div>
                 {/* Curso 6 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={comunicacionEstrategica} alt="Introducción a la comunicación estratégicas" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Introducción a la comunicación estratégicas</h3>

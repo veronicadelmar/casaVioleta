@@ -16,7 +16,7 @@ export default function SchoolArea() {
             </div>
             <div className='flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center xl:flex-wrap xl:[&>:nth-child(2)]:mx-[17px] xl:[&>:nth-child(5)]:mx-[17px]'>
                 {/* Curso 1 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px] xl:mb-[70px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={artesPlasticas} alt="Artes Plásticas" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Artes Plásticas</h3>
@@ -29,7 +29,7 @@ export default function SchoolArea() {
                     </div>
                 </div>
                 {/* Curso 2 */}
-                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-t-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
+                <div className='Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]'>
                     <div className='flex flex-col flex-grow'>
                         <img src={apoyoEscolar} alt="Apoyo Escolar" className='rounded-t-lg' />
                         <h3 className='text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]'>Apoyo Escolar</h3>
@@ -42,8 +42,8 @@ export default function SchoolArea() {
                     </div>
                 </div>
                 {/* rocket */}
-                <div className='Card hidden xl:mb-[30px] xl:rounded-t-lg xl:flex xl:flex-col xl:items-center xl:justify-center xl:w-[375px] xl:h-[730px]'>
-                    <img src={rocket} alt="Imagen representativa del curso" className='xl:rounded-t-lg' />
+                <div className='Card hidden xl:mb-[30px] xl:flex xl:flex-col xl:items-center xl:justify-center xl:w-[375px] xl:h-[730px]'>
+                    <img src={rocket} alt="Imagen representativa del curso" />
                 </div>
             </div>
         </section>
