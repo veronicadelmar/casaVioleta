@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import HomeContainer from "./components/HomeContainer"
 import SchoolArea from "./components/SchoolArea"
@@ -7,9 +8,7 @@ import JobTraining from "./components/JobTraining"
 import ContactForm from "./components/ContactForm"
 import HelpUsGrow from "./components/HelpUsGrow"
 import Footer from "./components/Footer"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Whatsapp from './components/Whatsapp'
-import ScrollContextProvider from "./context/ScrollContext"
+import Whatsapp from "./components/Whatsapp"
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <div className="bg-[#F8EBFF] flex flex-col font-['Raleway']">
         <Header/>
         <Whatsapp />
-        <ScrollContextProvider>
           <Routes>
             <Route path="/" element={<HomeContainer />} />
             <Route path="/area-escolar" element={<SchoolArea />} />
@@ -27,7 +25,6 @@ function App() {
             <Route path="/informacion-de-contacto" element={<ContactForm />} />
             <Route path="/ayudanos-a-crecer" element={<HelpUsGrow />} />
           </Routes>
-        </ScrollContextProvider>
         <Footer/>
       </div>
     </BrowserRouter>
