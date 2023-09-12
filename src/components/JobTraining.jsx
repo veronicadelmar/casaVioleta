@@ -6,7 +6,7 @@ import molderia from "../assets/molderia.png";
 import auxiliar from "../assets/auxilar.png";
 import seguridadDePertenencia from "../assets/controladorDeAdmision.png";
 import orientacionVocacional from "../assets/orientacionVocacional.png";
-import comunicacionEstrategica from "../assets/orientacionVocacional.png";
+import comunicacionEstrategica from "../assets/comunicacionEstrategica.png";
 
 export default function JobTraining() {
     const { goToTop } = useContext(ScrollContext)
