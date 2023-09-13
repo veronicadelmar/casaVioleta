@@ -102,6 +102,9 @@ export default function Header() {
                 <Link to="/area-escolar">
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Escolar</p>
                 </Link>
+                <Link to="/cultura-bienestar">
+                  <p className="p-5 border-[#E5B2FF] border-b-[1px]">Cultura y Bienestar</p>
+                </Link>
                 <Link to="/area-digital">
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Digital</p>
                 </Link>
