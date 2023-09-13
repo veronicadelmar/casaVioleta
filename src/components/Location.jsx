@@ -2,11 +2,13 @@ import { TbMathGreater } from "react-icons/tb";
 
 export default function Location(){ 
     return (
-        <section className="w-[360px] flex flex-col self-center xl:w-full xl:mb-[100px]">
-            <h2 className="text-[#E5B2FF] bg-[#543366] text-xl font-medium leading-normal text-center py-[28px] mb-[30px] xl:text-[38px] xl:py-[50px] xl:mb-[100px]">Mapa</h2>
+        <section className="flex flex-col self-center w-full xl:mb-[100px]">
+            <div className="w-full flex flex-col items-center justify-center bg-[#543366] py-[28px] mb-[30px] xl:text-[38px] xl:py-[50px] xl:mb-[100px]">
+                <h2 className="w-[360px] text-center text-[#E5B2FF] text-xl font-medium leading-normal">Mapa</h2>
+            </div>
             {/* container */}
-            <div className="mx-[18px] xl:flex xl:self-center xl:gap-4 xl:mx-[60px]">
-                <div className="text-[#E5B2FF] bg-[#543366] p-[20px] rounded-lg xl:w-[571px] xl:h-[300px]">
+            <div className="w-[360px] self-center mx-[18px] xl:w-[1280px] xl:flex xl:gap-4 xl:mx-[60px]">
+                <div className="mx-[18px] text-[#E5B2FF] bg-[#543366] p-[20px] rounded xl:w-[571px] xl:h-[300px]">
                     <h3 className="font-semibold text-lg mb-[20px] xl:mb-[30px] xl:text-[22px]">¿Como llegar?</h3>
                     <p className="text-sm font-normal leading-[23px] xl:leading-[26px] xl:font-medium xl:text-[20px]">Estamos ubicados en Álvarez 32, Barrio Don Bosco, 
                     Partido de Quilmes, a dos cuadras de la Estación de Tren. 
