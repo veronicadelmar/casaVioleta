@@ -25,7 +25,7 @@ export default function WelfareCulture() {
                     <div className="flex flex-col flex-grow">
                         <img src={welfareCulture01} alt="Imagen representativa del curso" className="rounded-t-lg h-[233px]" />
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Autoestima y Bienestar</h3>
-                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller, los niños tendrán la oportunidad de explorar una variedad de técnicas artísticas como dibujo, pintura y collage, entre otras. Mediante estas actividades, podrán experimentar y dar forma a sus emociones de manera creativa. Todos los materiales necesarios para cada propuesta serán proporcionados por nosotros.</p>
+                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller aprenderás a gestionar de forma inteligente e integral tus emociones. Te acompañarán un equipo de expertos en el área, además te recibiremos en un ambiente cálido, cómodo y seguro para la expresión de tus sentimientos.</p>
                     </div>
                     <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={goToTop}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
