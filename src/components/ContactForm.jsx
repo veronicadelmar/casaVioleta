@@ -22,7 +22,7 @@ export default function ContactForm() {
                         <input type="text" id="name" name="name" placeholder="Tu nombre completo" className="rounded-lg h-[50px] p-5 mb-[30px]" required />
 
                         <label htmlFor="phone" className="mb-2 font-normal font-medium leading-[23px] xl:text-[22px] xl:leading-normal">Teléfono</label>
-                        <input type="text" id="phone" name="phone" placeholder="Tu número de celular" className="rounded-lg h-[50px] p-5 mb-[30px]" required />
+                        <input type="number" id="phone" name="phone" placeholder="Tu número de celular" className="rounded-lg h-[50px] p-5 mb-[30px]" required />
 
                         <label htmlFor="message" className="mb-2 font-normal font-medium leading-[23px] xl:text-[22px] xl:leading-normal">Consulta</label>
                         <textarea name="message" id="message" cols="30" rows="10" placeholder="Escribinos tu consulta acerca del curso o taller" className="rounded-lg p-5 h-[190px]" required></textarea>
