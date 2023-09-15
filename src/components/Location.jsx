@@ -11,10 +11,10 @@ export default function Location(){
                 <div className="mx-[18px] text-[#E5B2FF] bg-[#543366] p-[20px] rounded xl:w-[571px] xl:h-[300px]">
                     <h3 className="font-semibold text-lg mb-[20px] xl:mb-[30px] xl:text-[22px]">¿Cómo llegar?</h3>
                     <p className="text-sm font-normal leading-[23px] xl:leading-[26px] xl:font-medium xl:text-[20px]">Estamos ubicados en Agustín Álvarez 32, Barrio Don Bosco, 
-                    Partido de Quilmes, a dos cuadras de la Estación de Tren (Don Bosco).
+                    Partido de Quilmes, a dos cuadras de la Estación de Tren.
                     Algunas formas de llegar:</p>
                     <ol className="text-sm font-normal xl:text-[20px] xl:leading-[26px]">
-                        <li>Tren: Línea Roca</li>
+                        <li>Tren: Línea Roca, estación Don Bosco</li>
                         <li>Líneas de Colectivos:</li>
                             <ul>
                                 <li className="flex flex-row items-center ml-[8px]">
