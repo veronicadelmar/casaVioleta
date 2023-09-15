@@ -10,8 +10,8 @@ export default function ContactForm() {
                         <h3 className="mx-[18px] font-medium text-xl leading-normal xl:mx-0 xl:text-[44px] xl:font-semibold">Información de Contacto</h3>
                     </div>
                 </div>
-                <div className="py-[30px] mx-[18px] xl:mx-0 xl:py-[50px] xl:p-[60px] xl:w-[1280px] xl:self-center">
-                    <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Para que podamos brindarte toda la  información que necesitás, escribinos sobre qué curso o taller querés iniciar. No te va a llevar más de 5 minutos, y te contestaremos muy pronto.</p>
+                <div className="py-[30px] mx-[18px] xl:mx-0 xl:pt-[100px] xl:pb-[50px] xl:px-[60px] xl:w-[1280px] xl:self-center">
+                    <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Para que podamos brindarte toda la información que necesitás, escribinos sobre qué curso o taller querés iniciar. No te va a llevar más de 5 minutos, y te contestaremos muy pronto.</p>
                     <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Una vez que hayas completado los datos, apretá el botón <span className="font-bold mx-1.5">“Enviar”</span> para que nos llegue tu consulta. ¡Y listo!</p>
                 </div>
                 <div className="flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center">
