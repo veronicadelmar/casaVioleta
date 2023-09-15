@@ -1,13 +1,13 @@
 import { RiArrowDownDoubleLine } from "react-icons/ri"
 import imgAbout from "../assets/imgAbout.png"
-import imgVideo from "../assets/imgVideo.png"
+import videoPresentacion from "../assets/videoPresentacion.mp4"
 
 export default function AboutUs() {
     return (
         <section className="AboutUs text-[#140819] bg-[#F8EBFF] w-[360px] xl:w-full xl:flex xl:flex-col">
-            <div className="xl:w-[1280px] xl:flex xl:flex-col xl:relative xl:self-center">
-                <img src={imgVideo} className="w-full mb-[30px] xl:mt-0 xl:mb-0" alt="Video presentación Casa Violeta" />
-                <div className="hidden xl:flex xl:absolute xl:bottom-[-45px]">
+            <div className="xl:w-full xl:flex xl:flex-col xl:relative xl:self-center">
+                <video src={videoPresentacion} loop autoPlay controls playsInline className="w-full mb-[30px] xl:mt-0 xl:mb-0 shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)]"></video>
+                <div className="hidden xl:flex xl:absolute xl:bottom-[65px] xl:rounded-full xl:w-[50px] xl:h-[50px] xl:flex-col xl:items-center xl:justify-center xl:ml-[60px] xl:text-[#E5B2FF] xl:bg-[#461e5b] xl:shadow-[0px_0px_15px_0px_#D9D9D9] animate-bounce">
                     <RiArrowDownDoubleLine size={100} />
                 </div>
             </div>
