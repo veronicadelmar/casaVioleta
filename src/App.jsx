@@ -18,12 +18,12 @@ function App() {
         <Whatsapp />
           <Routes>
             <Route path="/" element={<HomeContainer />} />
-            <Route path="/area-escolar" element={<SchoolArea />} />
-            <Route path="/cultura-bienestar" element={<WelfareCulture />} />
-            <Route path="/area-digital" element={<DigitalArea />} />
-            <Route path="/capacitacion-laboral" element={<JobTraining />} />
-            <Route path="/informacion-de-contacto" element={<ContactForm />} />
-            <Route path="/ayudanos-a-crecer" element={<HelpUsGrow />} />
+            <Route path="area-escolar" element={<SchoolArea />} />
+            <Route path="cultura-bienestar" element={<WelfareCulture />} />
+            <Route path="area-digital" element={<DigitalArea />} />
+            <Route path="capacitacion-laboral" element={<JobTraining />} />
+            <Route path="informacion-de-contacto" element={<ContactForm />} />
+            <Route path="ayudanos-a-crecer" element={<HelpUsGrow />} />
           </Routes>
         <Footer/>
       </div>
