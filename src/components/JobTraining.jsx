@@ -18,7 +18,7 @@ export default function JobTraining() {
                 </div>
             </div>
             <div className="py-[30px] mx-[18px] xl:mx-0 xl:py-[50px] xl:p-[60px] xl:w-[1280px] xl:self-center">
-                <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Acá te ofrecemos oportunidades de desarrollo para impulsar tu carrera. Obtene habilidades prácticas y conocimientos valiosos para destacar en el mundo laboral actual.</p>
+                <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Acá te ofrecemos oportunidades de desarrollo para impulsar tu carrera. Obtené habilidades prácticas y conocimientos valiosos para destacar en el mundo laboral actual.</p>
             </div>
             <div className="flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center xl:flex-wrap xl:[&>:nth-child(2)]:mx-[17px] xl:[&>:nth-child(5)]:mx-[17px]">
                 {/* Curso 1 */}
@@ -52,7 +52,7 @@ export default function JobTraining() {
                     <div className="flex flex-col flex-grow">
                         <img src={auxiliar} alt="Auxiliar en Cuidados de Adultos Mayores" className="rounded-t-lg" />
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Auxiliar en Cuidados de Adultos Mayores</h3>
-                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Te daremos las herramientas que te capacitarán en el cuidado de personas en avanzada edad. Nuestro enfoque de cuidado estará puesto de manera holística, ayudando en cada ámbito que componen a un sujeto de cuidados, comprendiendo que la salud no es simplemente la ausencia de la enfermedad.</p>
+                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Te daremos las herramientas que te capacitarán en el cuidado de personas de avanzada edad. Nuestro enfoque de cuidado estará puesto de manera holística, ayudando en cada ámbito que componen a un sujeto de cuidados, comprendiendo que la salud no es simplemente la ausencia de la enfermedad.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
                         <Link to="/informacion-de-contacto" onClick={goToTop}>
@@ -90,8 +90,8 @@ export default function JobTraining() {
                 <div className="Card bg-[#E5B2FF] w-[324px] mb-[30px] rounded-lg flex flex-col shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] xl:w-[375px] xl:h-[730px]">
                     <div className="flex flex-col flex-grow">
                         <img src={comunicacionEstrategica} alt="Introducción a la comunicación estratégicas" className="rounded-t-lg" />
-                        <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Introducción a la comunicación estratégicas</h3>
-                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Aprende a diagnosticar y problematizar tu proyecto, creando insumos que comuniquen su identidad eficazmente. Explorá conceptos clave, desde deconstrucción y construcción de singularidad hasta estrategias aplicadas en redes sociales, gráficos, video y fotografía.</p>
+                        <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Introducción a la comunicación estratégica</h3>
+                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Aprendé a diagnosticar y problematizar tu proyecto, creando insumos que comuniquen su identidad eficazmente. Explorá conceptos clave, desde deconstrucción y construcción de singularidad hasta estrategias aplicadas en redes sociales, gráficos, video y fotografía.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
                         <Link to="/informacion-de-contacto" onClick={goToTop}>

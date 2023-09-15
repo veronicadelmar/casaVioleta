@@ -5,7 +5,7 @@ import fotografia from "../assets/introduccionALaFotografia.png";
 import emprendimiento from "../assets/potenciarTuEmprendimientoEnRedesSociales.png";
 import redes from "../assets/introduccionALaRedesSociales.png";
 import impresion3d from "../assets/formacionEnImpresion3D.png";
-import rocket from "../assets/rocket-icon-empty-state.svg";
+import rocket from "../assets/rocket-icon-empty-state.png";
 
 
 export default function DigitalArea() {
@@ -66,7 +66,7 @@ export default function DigitalArea() {
                     <div className="flex flex-col flex-grow">
                         <img src={redes} alt="Introducción a la redes sociales" className="rounded-t-lg" />
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Introducción a la redes sociales</h3>
-                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Este curso te enseñará desde cero cómo utilizar Facebook, Instagram, Twitter (X) y TikTok. A lo largo de 10 encuentros presenciales, te sumergirás en est as redes para aprovecharlas al máximo y crear una presencia efectiva en línea, sin importar tu nivel de experiencia.</p>
+                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">Este curso te enseñará desde cero cómo utilizar Facebook, Instagram, Twitter (X) y TikTok. A lo largo de 10 encuentros presenciales, te sumergirás en estas redes para aprovecharlas al máximo y crear una presencia efectiva en línea, sin importar tu nivel de experiencia.</p>
                     </div>
                     <div className="flex justify-end py-7 px-5">
                         <Link to="/informacion-de-contacto" onClick={goToTop}>

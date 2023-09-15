@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import useScroll from "../customHooks/useScroll.js"
 import artesPlasticas from "../assets/artesPlasticas.png";
 import apoyoEscolar from "../assets/apoyoEscolar.png";
-import rocket from "../assets/rocket-icon-empty-state.svg";
+import rocket from "../assets/rocket-icon-empty-state.png";
 
 export default function SchoolArea() {
     const { goToTop } = useScroll();
@@ -15,7 +15,7 @@ export default function SchoolArea() {
                 </div>
             </div>
             <div className="py-[30px] mx-[18px] xl:mx-0 xl:py-[50px] xl:p-[60px] xl:w-[1280px] xl:self-center">
-                <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Nuestra área escolar es un espacio diseñado, que brinda acceso a una amplia gama de cursos y talleres, impartidos por expertos en diversos campos.</p>
+                <p className="text-sm xl:text-xl xl:font-medium xl:leading-[30px]">Nuestra área escolar es un espacio diseñado para niños y adolescentes, que brinda acceso a una amplia gama de cursos y talleres, impartidos por expertos en diversos campos.</p>
             </div>
             <div className="flex flex-col items-center mb-[30px] xl:items-start xl:flex-row xl:px-[60px] xl:mb-[100px] xl:w-[1280px] xl:self-center xl:flex-wrap xl:[&>:nth-child(2)]:mx-[17px] xl:[&>:nth-child(5)]:mx-[17px]">
                 {/* Curso 1 */}

@@ -9,8 +9,8 @@ export default function Location(){
             {/* container */}
             <div className="w-[360px] self-center mx-[18px] xl:w-[1280px] xl:flex xl:gap-4 xl:mx-[60px]">
                 <div className="mx-[18px] text-[#E5B2FF] bg-[#543366] p-[20px] rounded xl:w-[571px] xl:h-[300px]">
-                    <h3 className="font-semibold text-lg mb-[20px] xl:mb-[30px] xl:text-[22px]">¿Como llegar?</h3>
-                    <p className="text-sm font-normal leading-[23px] xl:leading-[26px] xl:font-medium xl:text-[20px]">Estamos ubicados en Álvarez 32, Barrio Don Bosco, 
+                    <h3 className="font-semibold text-lg mb-[20px] xl:mb-[30px] xl:text-[22px]">¿Cómo llegar?</h3>
+                    <p className="text-sm font-normal leading-[23px] xl:leading-[26px] xl:font-medium xl:text-[20px]">Estamos ubicados en Agustín Álvarez 32, Barrio Don Bosco, 
                     Partido de Quilmes, a dos cuadras de la Estación de Tren. 
                     Algunas formas de llegar:</p>
                     <ol className="text-sm font-normal xl:text-[20px] xl:leading-[26px]">
