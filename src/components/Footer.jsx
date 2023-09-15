@@ -13,7 +13,7 @@ export default function Footer(){
                         <img src={logoCasaVioleta} alt="Logo casa violeta" className="w-[114px] h-[35px] xl:w-[227px] xl:h-[71px]" />
                     </div>
                     <div className="pb-[30px] text-sm xl:text-xl">
-                        <p className="leading-[23px] xl:font-medium xl:leading-[26px]">Álvarez 32, Barrio Don Bosco,</p>
+                        <p className="leading-[23px] xl:font-medium xl:leading-[26px]">Agustín Alvarez 32, Barrio Don Bosco,</p>
                         <span className="leading-[23px] xl:font-medium xl:leading-[26px]">Quilmes</span>
                         <p className="leading-[23px] mb-2 pt-[30px] xl:font-medium xl:leading-[26px]">Código Postal 1878</p>
                         <p className="hidden leading-[23px] xl:block xl:font-medium xl:leading-[26px]">+54 9 11 6503 9065</p>

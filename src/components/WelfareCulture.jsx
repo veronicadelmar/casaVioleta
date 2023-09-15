@@ -5,7 +5,7 @@ import welfareCulture02 from "../assets/welfareCulture02.png"
 import welfareCulture03 from "../assets/welfareCulture03.jpg"
 import welfareCulture04 from "../assets/welfareCulture04.png"
 import welfareCulture05 from "../assets/welfareCulture05.png"
-import comingSoon from "../assets/rocket-icon-empty-state.svg"
+import comingSoon from "../assets/rocket-icon-empty-state.png"
 
 export default function WelfareCulture() {
     const { goToTop } = useScroll();
@@ -25,7 +25,7 @@ export default function WelfareCulture() {
                     <div className="flex flex-col flex-grow">
                         <img src={welfareCulture01} alt="Imagen representativa del curso" className="rounded-t-lg h-[233px]" />
                         <h3 className="text-[17px] font-semibold leading-[25px] py-[30px] px-5 xl:text-xl leading-[30px]">Autoestima y Bienestar</h3>
-                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller aprenderás a gestionar de forma inteligente e integral tus emociones. Te acompañarán un equipo de expertos en el área, además te recibiremos en un ambiente cálido, cómodo y seguro para la expresión de tus sentimientos.</p>
+                        <p className="px-5 font-medium leading-[25px] xl:text-xl leading-[30px]">En este taller aprenderás a gestionar de forma inteligente e integral tus emociones. Te acompañarán un equipo de expertos en el área. Además te recibiremos en un ambiente cálido, cómodo y seguro para la expresión de tus sentimientos.</p>
                     </div>
                     <Link to="/informacion-de-contacto" className="flex justify-end py-7 px-5" onClick={goToTop}>
                         <span className="underline text-[#004C0B] text-[17px] font-semibold leading-[25px] xl:text-[22px] xl:leading-[33px]">Para más info</span>
