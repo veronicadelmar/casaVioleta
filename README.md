@@ -1,8 +1,23 @@
-# React + Vite
+# Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cliente: Casa Violeta
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Casa Violeta es una institución que tiene como objetivo potenciar las capacidades de niños, jóvenes y adultos, dotándolos de herramientas formativas para que puedan desarrollarse de forma autónoma.
+
+---
+
+## Integrantes del Proyecto
+
+<div style="background-color: black; padding: 20px; border-radius: 10px;">
+
+### Desarrollo
+
+![Imagen 1](https://ibb.co/mtzG2bf)
+
+#### Verónica Guiñan
+
+#### Web Development
+
+</div>
