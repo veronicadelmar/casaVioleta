@@ -10,14 +10,16 @@ Casa Violeta es una institución que tiene como objetivo potenciar las capacidad
 
 ## Integrantes del Proyecto
 
-<div style="background-color: black; padding: 20px; border-radius: 10px;">
+<section>
+<div style="background-color: white; padding: 20px; border-radius: 10px;">
 
 ### Desarrollo
 
-![Imagen 1](https://ibb.co/mtzG2bf)
+![Imagen 1](https://i.ibb.co/ft02yqj/foto-De-Perfil.jpg)
 
 #### Verónica Guiñan
 
 #### Web Development
 
 </div>
+</section>
