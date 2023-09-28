@@ -18,6 +18,9 @@ const products = [
 ]
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header className="h-[70px] w-full px-[18px] flex flex-row flex-wrap justify-between items-center text-[#E5B2FF] bg-[#461e5b] xl:h-[100px] xl:px-[60px]">
@@ -81,40 +84,37 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full bg-[#461e5b] overflow-y-auto">
         <nav className="h-[70px] px-[25px] flex flex-row flex-wrap justify-between items-center border-[#E5B2FF] border-b-2">
             {/* logo */}
-            <Link to="/">
+            <Link to="/" onClick={closeMobileMenu}>
                 <img className="w-2/4" src={logo} alt="logo casa violeta" />
             </Link>
             {/* btn close */}
             <figure className="xl:hidden">
-            <button
-                type="button"
-                onClick={() => setMobileMenuOpen(false)}
-            >
+              <button type="button" onClick={closeMobileMenu}>
                 <MdClose className="w-[30px] h-[30px] text-[#E5B2FF]"/>
-            </button>
+              </button>
             </figure>
         </nav>
             <div className="text-[#E5B2FF]">
               <div className="flex flex-col">
-                <Link to="/">
+                <Link to="/" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Inicio</p>
                 </Link>
-                <Link to="/area-escolar">
+                <Link to="/area-escolar" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Escolar</p>
                 </Link>
-                <Link to="/cultura-bienestar">
+                <Link to="/cultura-bienestar" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Cultura y Bienestar</p>
                 </Link>
-                <Link to="/area-digital">
+                <Link to="/area-digital" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Área Digital</p>
                 </Link>
-                <Link to="/capacitacion-laboral">
+                <Link to="/capacitacion-laboral" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Capacitación Laboral</p>
                 </Link>
-                <Link to="/informacion-de-contacto">
+                <Link to="/informacion-de-contacto" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Información de Contacto</p>
                 </Link>
-                <Link to="/ayudanos-a-crecer">
+                <Link to="/ayudanos-a-crecer" onClick={closeMobileMenu}>
                   <p className="p-5 border-[#E5B2FF] border-b-[1px]">Ayudanos</p>
                 </Link>
               </div>
